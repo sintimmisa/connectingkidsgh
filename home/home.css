@@ -1,0 +1,94 @@
+}
+.container{
+    width:85%;
+    margin: auto auto;  
+
+}
+
+#header{
+    width:100%;
+    height: 120vh;
+    top:0;
+    margin:0;
+    padding: 0;
+  
+}
+
+#hero-img{
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    top: -7%;
+    left: -5%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+
+.navbar{
+    margin-top: 0.8rem;
+    background: FFFFFF;
+  
+
+}
+
+.navbar .logo{
+    float: left;
+}
+
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    padding:0.3rem
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary-blue-color);
+    font-weight: bold;
+}
+
+.navbar ul li .active{
+    color:var(--primary-blue-color);
+}
+
+.navbar ul li a:hover{
+    color:var(--red-color);
+    content:"/";
+    transition: all .3s;
+}
+
+/*Welcome Msg*/
+
+.welcome-msg h1{
+    text-transform: uppercase;
+    color:var(--primary-blue-color);
+    font-weight: normal;
+    font-size: 1.85rem;
+
+}
+
+.welcome-msg h1 span{
+    
+    font-weight: bold;
+}
+.welcome-msg h1 .red-color{
+    color: var(--red-color);
+}
+
+.donate{
+    width:8rem;
+    border:none ;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    background: var(--red-color);
+    font-size: 1.65rem;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+
+}
